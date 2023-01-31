@@ -11,3 +11,4 @@ This is a collection of assigned queries on Spotify's 2021 Top 50 Songs for Char
 - Aggregate functions
   - AVG
   - MAX
+- Common Table Expressions (CTEs)
