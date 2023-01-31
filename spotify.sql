@@ -52,8 +52,9 @@ WITH popTable AS (
     ORDER BY popularity
     )
 SELECT 
-    artist_name AS 'Top Star',
-    popularity
+    artist_name,
+    popularity,
+    'Top Star' AS tag
 FROM popTable
 WHERE
     popularity >= 90
